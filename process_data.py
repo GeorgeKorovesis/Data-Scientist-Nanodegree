@@ -14,21 +14,21 @@ def clean_data(df):
     categories.columns = category_colnames.values
     
     for column in categories:
-        categories[column] = categories[column].str[-1];    
-        categories[column] = categories[column].astype('int32')
+        categories[column] = categories[column].astype(str).str[-1];    
+        categories[column] = categories[column].astype(int).astype('bool')
     
     df.drop('categories',axis=1,inplace=True)
 
     df = pd.concat([df,categories],axis=1)
     
     df.drop_duplicates(inplace = True)
-    
+
     return df
     
 def save_data(df, database_filename):
    
     engine = create_engine('sqlite:///%s'%database_filename)
-    df.to_sql('responses', engine, index=False)  
+    df.to_sql('responses', engine, if_exists='replace',index=False)  
 
 
 def main():
