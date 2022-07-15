@@ -26,5 +26,5 @@ The schema and explanation of each variable in all 3 files, can be found in the 
 The main findings of the code can be found at the post available here.
 
 ## Licensing, Authors, Acknowledgements 
-Must give credit to Starbucks for the data. You can find the Licensing for the data and other descriptive information at the Kaggle link available here. Otherwise, feel free to use the code here as you would like!
+Must give credit to Starbucks for the data. Feel free to use the code here as you would like!
 
