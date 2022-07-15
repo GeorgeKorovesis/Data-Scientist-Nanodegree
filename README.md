@@ -15,7 +15,7 @@ Which offer type do customers mostly respond to? Do people with lower income res
 
 ## File Descriptions 
 There is 1 notebook available here to showcase work related to the above questions. The notebook is exploratory enough in searching through the data pertaining to the questions showcased by the notebook title. Markdown cells were used to assist in walking through the thought process for individual steps. <br/>
-There is also one ready to use offer_data file that provides the full cleaned data, which can be loaded to a new dataframe as 
+There is also one ready to use file with name 'offer_data', that contains the full cleaned data, which can be loaded to a new dataframe as 
 ```
 df = pd.read_pickle('offer_data')
 ```
