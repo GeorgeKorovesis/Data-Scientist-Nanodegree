@@ -2,7 +2,7 @@ Table of Contents
 =================
 * [Installation](#installation) 
 * [Project Motivation](#project-motivation) 
-* [Project Motivation](#file-descriptions) 
+* [File Descriptions](#file-descriptions) 
 * [Results](#results) 
 * [Licensing, Authors, and Acknowledgements](#licensing,-authors,-and-acknowledgements) 
 
@@ -19,10 +19,12 @@ There is also one ready to use offer_data file that provides the full cleaned da
 ```
 df = pd.read_pickle('offer_data')
 ```
-There are also provided 3 json files provided, profile.json, portfolio.json and transcript.json, which contain the full dataset needed for this study. 
+There are also provided 3 json files provided, profile.json, portfolio.json and transcript.json, which contain the full dataset needed for this study.
+The schema and explanation of each variable in all 3 files, can be found in the notebook.
 
 ## Results 
 The main findings of the code can be found at the post available here.
 
 ## Licensing, Authors, Acknowledgements 
 Must give credit to Starbucks for the data. You can find the Licensing for the data and other descriptive information at the Kaggle link available here. Otherwise, feel free to use the code here as you would like!
+
